@@ -23,13 +23,20 @@ export function PortfolioTeaser() {
           <div className="mt-4 grid flex-1 gap-4 text-sm sm:grid-cols-2">
             <div className="rounded-2xl border border-slate-800 bg-slate-900/70 p-4">
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">
-                Coming soon
+                Live Portfolio
               </p>
-              <ul className="mt-2 space-y-1.5 text-xs text-slate-300">
-                <li>Feature-rich Angular front-ends</li>
-                <li>Node/Express APIs with clean layering</li>
-                <li>Full stack applications with authentication flows</li>
-              </ul>
+              <p className="mt-2 text-sm text-slate-300">
+                Check out my complete portfolio showcasing my work in full-stack development,
+                featuring Angular front-ends, Node/Express APIs, and modern web applications.
+              </p>
+              <a
+                href="https://rodrigobaezgarcia.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 inline-flex rounded-full bg-accent-soft/90 px-4 py-1.5 text-[11px] font-semibold text-slate-950 shadow-glow-accent transition hover:bg-accent-soft"
+              >
+                View Portfolio →
+              </a>
             </div>
             <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-900/40 p-4 text-xs text-slate-300">
               <p className="font-semibold text-slate-100">

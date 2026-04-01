@@ -29,10 +29,12 @@ export function Hero() {
           </div>
           <div className="flex flex-wrap items-center gap-4">
             <a
-              href="#portfolio"
+              href="https://rodrigobaezgarcia.com/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-full bg-accent-soft px-5 py-2.5 text-sm font-semibold text-slate-950 shadow-glow-accent transition hover:bg-sky-400"
             >
-              View future portfolio
+              View my portfolio →
             </a>
             <a
               href="#journey"
